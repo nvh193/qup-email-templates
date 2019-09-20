@@ -1,5 +1,5 @@
 {
-  "name": "@nvh193/qup-email-templates",
+  "name": "qup-email-templates",
   "version": "1.0.0",
   "description": "Render qup email templates",
   "main": "index.js",
