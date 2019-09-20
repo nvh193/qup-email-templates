@@ -1,0 +1,26 @@
+{
+  "name": "@nvh193/qup-email-templates",
+  "version": "1.0.0",
+  "description": "Render qup email templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qup-email-templates"
+  ],
+  "author": "nvh193",
+  "license": "ISC",
+  "dependencies": {
+    "email-templates": "^6.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvh193/qup-email-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nvh193/qup-email-templates/issues"
+  },
+  "homepage": "https://github.com/nvh193/qup-email-templates#readme"
+}
