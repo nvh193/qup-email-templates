@@ -4,7 +4,7 @@ var path = require("path");
 var templateDir = path.resolve(__dirname, "templates");
 
 exports.renderTemplate = function(params, template = 'error_report') {
-  const template = new EmailTemplate({
+  const emailTemplate = new EmailTemplate({
     views: {
       root: path.join(templateDir)
     },
@@ -29,5 +29,5 @@ exports.renderTemplate = function(params, template = 'error_report') {
       }
     }
   });
-  return template.renderAll(template, params);
+  return emailTemplate.renderAll(template, params);
 }
